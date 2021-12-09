@@ -1,0 +1,55 @@
+.userinfo{
+    position: relative;
+}
+
+.userinfo ul{
+    list-style: none;
+}
+
+.userMenu{
+    position: absolute;
+    background-color: white;
+    border-radius: 1em;
+    min-width: 250%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.userMenu li a:hover{
+    background-color: green;
+    transition: all .3s;
+    color: white;
+}
+
+.userinfo:hover .userMenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.userMenu  ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.userName{
+    display: block;
+    color: black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    border-bottom: 1px solid green;
+} 
+
+.userMenu  ul{
+    padding: 0;
+}
+
+.btUser {
+    background-color: transparent;
+    border: none;
+    margin: 0.5em;
+}
